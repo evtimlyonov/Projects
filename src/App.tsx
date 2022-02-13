@@ -1,5 +1,13 @@
+import { BasicProjects } from './components/BasicProjects';
+import { Header } from './components/Header';
+
 function App() {
-  return <div className='App'>TEST</div>;
+  return (
+    <main>
+      <Header />
+      <BasicProjects />
+    </main>
+  );
 }
 
 export default App;
