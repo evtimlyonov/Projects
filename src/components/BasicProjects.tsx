@@ -47,6 +47,12 @@ const data = [
     img: './images/8.jpg',
     link: 'https://demo-lorem-project.netlify.app/',
   },
+  {
+    id: 9,
+    name: 'Color generator',
+    img: './images/9.jpg',
+    link: 'https://demo-color-generator.netlify.app/',
+  },
 ];
 
 export const BasicProjects = () => {
@@ -61,13 +67,13 @@ export const BasicProjects = () => {
           return (
             <article
               key={el.id}
-              className='bg-white transition duration-500 hover:scale-110 shadow-xl rounded overflow-hidden mb-8'>
+              className='mb-8 overflow-hidden transition duration-500 bg-white rounded shadow-xl hover:scale-110'>
               {console.log(el.img)}
               <a href={el.link} target='_blank' rel='noreferrer'>
                 <div className={`h-60 w-80 bg-cover`}>
                   <img src={el.img} alt={el.name} />
                 </div>
-                <div className='text-center py-4 px-5 bg-white'>
+                <div className='px-5 py-4 text-center bg-white'>
                   <h5>{el.name}</h5>
                 </div>
               </a>
