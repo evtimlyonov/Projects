@@ -59,6 +59,12 @@ const data = [
     img: './images/10.jpg',
     link: 'https://demo-navbar-project.netlify.app/',
   },
+  {
+    id: 11,
+    name: 'Random Jokes',
+    img: './images/11.jpg',
+    link: 'https://demo-random-jokes-project.netlify.app/',
+  },
 ];
 
 export const BasicProjects = () => {
