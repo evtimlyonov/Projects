@@ -55,7 +55,7 @@ const data = [
   },
   {
     id: 10,
-    name: 'Color generator',
+    name: 'Navbar',
     img: './images/10.jpg',
     link: 'https://demo-navbar-project.netlify.app/',
   },
@@ -77,7 +77,11 @@ export const BasicProjects = () => {
               {console.log(el.img)}
               <a href={el.link} target='_blank' rel='noreferrer'>
                 <div className={`h-60 w-80 bg-cover`}>
-                  <img src={el.img} alt={el.name} />
+                  <img
+                    src={el.img}
+                    alt={el.name}
+                    className='object-fill w-full h-full'
+                  />
                 </div>
                 <div className='px-5 py-4 text-center bg-white'>
                   <h5>{el.name}</h5>
