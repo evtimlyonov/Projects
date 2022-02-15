@@ -53,6 +53,12 @@ const data = [
     img: './images/9.jpg',
     link: 'https://demo-color-generator.netlify.app/',
   },
+  {
+    id: 10,
+    name: 'Color generator',
+    img: './images/10.jpg',
+    link: 'https://demo-navbar-project.netlify.app/',
+  },
 ];
 
 export const BasicProjects = () => {
